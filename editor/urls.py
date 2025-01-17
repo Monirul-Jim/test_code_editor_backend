@@ -7,5 +7,5 @@ router = DefaultRouter()
 
 urlpatterns = [
     path('execute/', execute_code, name='execute_code'),
-    path('', include(router.urls)),  # Include router for other DRF views
+    path('', include(router.urls)),
 ]
